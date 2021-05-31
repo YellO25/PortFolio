@@ -24,7 +24,7 @@ const Footer = () =>
             </div>
             <div className="item">
                 <ul className="explain">
-                    <li>< MdDevicesOther style={{ color: "red" }} /> &nbsp;Création sites-web et Applications Moobiles </li>
+                    <li>< MdDevicesOther style={{ color: "red" }} /> &nbsp;Création sites-web et Applications Mobiles </li>
                     <li><FaUserGraduate style={{ color: "red" }} />&nbsp;Formations Disponibles </li>
                     <li><RiMoneyDollarBoxFill style={{ color: "red" }} />&nbsp;Online-Business Création</li>
                 </ul>
