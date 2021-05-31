@@ -1,0 +1,67 @@
+/* container list */
+
+.menu-side {
+    position: absolute;
+    top: 40px;
+}
+
+.side-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: right;
+    list-style: none;
+    justify-content: space-evenly;
+    /* font-size: 50px; */
+    padding: 20px;
+    background-color: rgb(3, 3, 3);
+    width: 200px;
+    height: auto;
+    border: 1px solid rgb(252, 207, 6);
+    border-radius: 10px;
+    /* width: 94%; */
+}
+
+.side-icons {
+    /* border-top: 1px solid rgb(255, 255, 255); */
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    box-shadow: -3px -5px 0px rgb(255, 255, 255);
+    color: rgb(252, 215, 6);
+    padding: 10px;
+    margin: 30px;
+    /* font-size: 50px; */
+    /* border: 1px solid #000; */
+}
+
+.side-icons:hover {
+    width: 23px;
+    height: 23px;
+    border-radius: 10px;
+    color: rgb(0, 38, 141);
+    background-color: #fff;
+    padding: 10px;
+    margin: 30px;
+    /* font-size: 50px; */
+    box-shadow: 3px 5px 0px rgb(250, 12, 4);
+    box-sizing: box-sizing;
+}
+
+
+/* les details links */
+
+.side-link {
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    /* justify-content: 1; */
+}
+
+.side-details {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(251, 251, 251);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}

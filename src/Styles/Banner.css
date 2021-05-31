@@ -1,0 +1,73 @@
+.banner {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px;
+    height: 250px;
+    width: 96%;
+    background-color: rgb(7, 7, 6);
+    /* border-bottom: 1px solid rgb(252, 215, 6); */
+    /* border-radius: 20px; */
+    flex-grow: 2;
+}
+
+.logo-icon {
+    position: absolute;
+    font-size: 300px;
+    top: 0px;
+    color: rgb(255, 251, 0);
+}
+
+#list-bar {
+    position: absolute;
+    color: rgb(253, 216, 5);
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.top-name {
+    position: relative;
+    color: rgb(8, 8, 8);
+    left: -100px;
+    text-shadow: 2px 2px 0px rgb(255, 251, 0);
+    font-size: 30px;
+    transition: font-size 2s;
+}
+
+.top-name:hover {
+    font-size: 50px;
+}
+
+
+/* Follow-App */
+
+.follow-App {
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    align-items: flex-end;
+    font-size: 20px;
+    width: 25px;
+    flex-wrap: wrap;
+}
+
+.icon-follow {
+    color: rgb(255, 251, 0);
+    font-size: 24px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    transition: width 2s;
+    transition: height 2s;
+    background-color: rgb(9, 5, 252);
+}
+
+.icon-follow:hover {
+    color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
