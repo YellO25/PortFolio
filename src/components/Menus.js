@@ -1,5 +1,5 @@
 import React from 'react';
-import DevicesIcon from '@material-ui/icons/Devices';
+// import DevicesIcon from '@material-ui/icons/Devices';
 import { FaUserGraduate } from 'react-icons/fa';
 import { MdDoneAll } from 'react-icons/md';
 import { MdDevicesOther } from 'react-icons/md';
@@ -7,6 +7,7 @@ import { GiBiceps } from 'react-icons/gi';
 import { RiMoneyDollarBoxFill } from 'react-icons/ri';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import '../Styles/Menus.css';
+import CreateApp from '../LinkRoutes/CreateApp';
 
 const Menus = () =>
 {
@@ -47,7 +48,7 @@ const Menus = () =>
                     </Switch>
                 </ul>
                 <Route>
-
+                    <CreateApp />
                 </Route>
             </Router>
         </div>);
