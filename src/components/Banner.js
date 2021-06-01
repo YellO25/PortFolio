@@ -11,14 +11,18 @@ import { FaDiscord } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 // import { IoIosContact } from 'react-icons/io';
-import SideList from "./SideList";
+// import SideList from "./SideList";
 
-import { FaBars } from 'react-icons/fa';
+// import { FaBars } from 'react-icons/fa';
 
 
 const Banner = (props) =>
 {
 
+    // const handleFollowApp = () =>
+    // {
+
+    // };
 
     const name = "X-DEV";
     return (<div className="banner">
@@ -37,7 +41,7 @@ const Banner = (props) =>
         <div className="follow-App">
             <Router>
                 <Switch>
-                    <Link to="facebook"><FaFacebook className="icon-follow" /></Link>
+                    <Link to="https://www.facebook.com/yello.cam.7/"><FaFacebook className="icon-follow" /></Link>
                 </Switch>
                 <Switch>
                     <Link to="instagram"><FaInstagramSquare className="icon-follow" /></Link>
@@ -55,7 +59,12 @@ const Banner = (props) =>
                 <Switch>
                     <Link to="Youtube">  <FaYoutube className="icon-follow" /></Link>
                 </Switch>
+                <Route path="/facebook">
+
+                    <a href="https://www.facebook.com/yello.cam.7/"></a>
+                </Route>
             </Router>
+
 
         </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import '../Styles/Footer.css';
-import ContactsIcon from '@material-ui/icons/Contacts';
+// import ContactsIcon from '@material-ui/icons/Contacts';
 import { BiMailSend } from "react-icons/bi";
 import { MdDevicesOther } from 'react-icons/md';
 import { FaUserGraduate } from 'react-icons/fa';
@@ -24,9 +24,9 @@ const Footer = () =>
             </div>
             <div className="item">
                 <ul className="explain">
-                    <li>< MdDevicesOther style={{ color: "red" }} /> &nbsp;Création sites-web et Applications Mobiles </li>
-                    <li><FaUserGraduate style={{ color: "red" }} />&nbsp;Formations Disponibles </li>
-                    <li><RiMoneyDollarBoxFill style={{ color: "red" }} />&nbsp;Online-Business Création</li>
+                    <li>< MdDevicesOther style={{ color: "red" }} /> &nbsp;App Web<span style={{ color: 'red' }}>&</span>Mobiles</li>
+                    <li><FaUserGraduate style={{ color: "red" }} />&nbsp;Formations</li>
+                    <li><RiMoneyDollarBoxFill style={{ color: "red" }} />&nbsp;Online-Business</li>
                 </ul>
             </div>
         </div>

@@ -7,7 +7,7 @@ import { GiBiceps } from 'react-icons/gi';
 import { RiMoneyDollarBoxFill } from 'react-icons/ri';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import '../Styles/Menus.css';
-import CreateApp from '../LinkRoutes/CreateApp';
+import CreateApp from './LinkRoutes/CreateApp';
 
 const Menus = () =>
 {
@@ -47,7 +47,7 @@ const Menus = () =>
                         </Link>
                     </Switch>
                 </ul>
-                <Route>
+                <Route path="/createapp">
                     <CreateApp />
                 </Route>
             </Router>
