@@ -1,0 +1,104 @@
+/* About Container */
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Bangers|Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+:root {
+    --white-color: #ffffff;
+    --light-grey-color: #EAE8E8;
+    --light-green-color: #1ecc78;
+    --green-color: #0cb765;
+    --red-color: #EB1D27;
+    --blue-color: #4f78a4;
+    --dark-red-color: #d31017;
+    --dark-grey-color: #363636;
+    --black-color: #333030;
+    --deep-black-color: #000000;
+}
+
+.About {
+    padding: 30px;
+}
+
+.a-container {
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+
+/*  */
+
+.about-left {
+    flex: 1;
+    /* background-color: rgb(201, 16, 16); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.about-right {
+    flex: 1;
+}
+
+.about-bg {
+    background-image: url('../assets/bg-noise-texture.png');
+    position: absolute;
+    top: 150px;
+    left: -50px;
+    height: 60vh;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.container-card {
+    width: 80%;
+    height: 50vh;
+    border-radius: 30px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.about-img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.a-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sub-des {
+    font-size: 18px;
+    margin: 30px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.des-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.des-image {
+    width: 130px;
+    height: 130px;
+}
+
+.text-description {
+    font-family: serif;
+    font-size: 15px;
+}
+
+.sub-title {
+    font-family: serif;
+}
